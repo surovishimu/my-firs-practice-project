@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    background-color: rgb(77, 72, 72);
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+
+}
+
+.nav-img {
+    width: 170px;
+    height: 40px;
+    padding-top: 7px;
+}
+.nav-second{
+    display: flex;
+ 
+}
+.menu-bar{
+    list-style-type: none;
+    margin-right: 30px;
+    color: white;
+    font-size: 25px;
+}
+.menu-bar:hover{
+    color: darkturquoise;
+    cursor: pointer;
+}
