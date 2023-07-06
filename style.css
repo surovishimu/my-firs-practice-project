@@ -35,6 +35,9 @@
 
 .banner-photo{
     width: 450px;
+    
+   
+    
 }
 .banner-container{
     display: flex;
@@ -64,4 +67,31 @@ padding-top: 15px;
     background-color: red;
     color: white;
     font-size: 15px;
+    border: none;
+}
+.about-us-title{
+    font-size: 80px;
+    text-align: center; 
+    padding-top: 15px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    
+}
+.about-heading{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.about-para{
+    font-size:25px ;
+    margin-bottom: 10px;
+  
+}
+.about-img{
+    border-right: 2px solid black;
+    height: 500px;
+   
 }
