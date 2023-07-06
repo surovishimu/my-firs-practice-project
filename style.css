@@ -95,3 +95,41 @@ padding-top: 15px;
     height: 500px;
    
 }
+.service-title{
+    font-size: 80px;
+    text-align: center; 
+    padding-top: 15px;
+}
+.first-service{
+    height: 380px;
+    width: 270px;
+    background-color: rgb(99, 96, 96);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.ser-img{
+    width: 130px;
+    padding: 20px 50px;
+}
+.service-text{
+    margin-top: 15px;
+}
+.ser-btn{
+    height: 40px;
+    width: 70px;
+    margin-top: 10px;
+    background-color: rgb(24, 21, 21);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/background.png),linear-gradient(180deg,rgb(75, 74, 74),black);
+    height: 70vh;
+    align-items: center;
+}
